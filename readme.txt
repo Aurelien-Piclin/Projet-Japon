@@ -1,0 +1,1 @@
+Projet Japon (23/10/2022) : 1er projet avec plusieurs pages (HTML/CSS/BOOTSTRAP). La page d'accueil devait être responsive.

@@ -1,0 +1,126 @@
+/* 
+font-family: 
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Indie Flower', cursive;
+*/
+
+
+body {
+
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+}
+
+#conteneur1 {
+    padding: 0px;
+}
+
+#navbar {
+    font-size: 1.2rem;
+    background-color: rgb(226, 33, 42);
+}
+
+
+h1 {
+    font-size: 5rem;
+    border-bottom: 5px solid rgb(226, 33, 42);
+}
+
+h2 {
+    font-size: 3rem;
+    border: 3px solid rgb(226, 33, 42);
+    padding: 8px;
+
+}
+
+.onglet:hover {
+    opacity: 10;
+}
+
+.content {
+    opacity: 0;
+}
+
+.onglet:hover+.content {
+    opacity: 100;
+    font-size: 2rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 2rem;
+
+}
+
+strong {
+    color: rgb(226, 33, 42);
+    font-size: 2.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+#retour {
+    margin-left: 80%;
+    color: black;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    #conteneur4 {
+        border-left: thick double rgb(226, 33, 42);
+        height: 95%;
+    }
+
+    #navbar {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) and (min-width:420px) {
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 419px) and (min-width:319px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    strong {
+        font-size: 1.5rem;
+    }
+
+    #retour {
+        margin-left: 50%;
+        color: black;
+    }
+
+    audio {
+        width: 200px!important;
+        height: 34px!important;
+    }
+
+}
